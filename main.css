@@ -1,0 +1,98 @@
+.container {
+ width:700px;
+ margin: 0 auto;
+}
+
+#menu {
+ float:left;
+ left:50%;
+ list-style-type:none;
+ margin: 15px;
+ padding:0;
+ position:relative;
+}
+li {
+	float:left;
+	position:relative;
+	right:50%;
+	border:1px solid black;
+	border-right-style: none;
+	border-left-style: none;
+}
+li a{
+	display: inline-block;
+	color: black;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-size:20px;
+}
+ .inicio img{
+ 	position: relative;
+ 	left: 90px;
+}
+.nosotros{
+	width: 400px;
+	height: 200px;
+	padding: 10px 20px 20px 10px;
+	position: relative;
+	left: 150px;
+}
+.nosotros div{
+	width: 90px;
+	border:2px solid gray;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+	margin: 0 auto;
+
+}
+.nosotros p{
+	font-family: Time News Roman;
+	font-size: 20px;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+}
+.coders{
+	position: relative;
+	right: 60px;
+}
+.raya{
+	width: 100px;
+	border:5px solid black;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+	
+}
+#hijo:hover{
+	opacity: 0;
+}
+.fotos {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	display: inline-block;
+	left: 120px;
+	margin-right: 20px;
+	}
+#coders{ 
+	width: 200px;
+	height: 200px;
+		 }
+#nombre {
+	position: relative;
+	top: 215px;
+	left: 80px;
+	color: black;
+}
+#hijo {
+	position: absolute;
+	top: 50px;
+	left: 1px;
+	width: 200px;
+	height: 200px;
+	background-color: black;
+	opacity: 0.3;
+}
+
